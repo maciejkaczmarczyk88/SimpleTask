@@ -8,6 +8,8 @@ public class Task1 {
         return false;
     }
 
+
+
     public static void main(String[] args) {
         boolean test = sleepIn(true, false);
         System.out.println(test);
