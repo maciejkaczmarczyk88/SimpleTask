@@ -9,7 +9,7 @@ public class Task12 {
         System.out.println(hello_world2);
     }
 
-    public String frontBack(String str) {
+    public static String frontBack(String str) {
         String substring;
         char first;
         char last;
@@ -22,3 +22,4 @@ public class Task12 {
         }
         return last + substring + first;
     }
+}
