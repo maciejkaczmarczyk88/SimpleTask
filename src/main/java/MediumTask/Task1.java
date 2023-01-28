@@ -37,4 +37,23 @@ public class Task1 {
         }
     }
 
+    public boolean cigarParty(int cigars, boolean isWeekend) {
+        if (isWeekend || (cigars >= 40 || cigars <= 60)){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+    //Given a string, return a string where for every char in the original, there are two chars.
+    public String doubleChar(String str) {
+        String newWord = "";
+        for (int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            newWord += "" + c + c;
+        }
+        return newWord;
+    }
+
 }
