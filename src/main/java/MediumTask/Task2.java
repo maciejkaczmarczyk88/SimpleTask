@@ -78,6 +78,35 @@ public class Task2 {
         }
         return count;
     }
+//Given an array of ints, return true if the array contains a 2 next to a 2 somewhere.
+
+    public boolean has22(int[] nums) {
+        for (int i = 0; i < nums.length; i++) {
+            if ((nums.length - 2 != 2) && (nums.length - 1 == 2)){
+                return false;
+            }
+            if (nums[i] == 2 && (nums[i + 1] == 2)){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // Given an array of ints, return true if the array contains no 1's and no 3's.
+
+    public boolean lucky13(int[] nums) {
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 3 || nums[i] == 1 ){
+                return false;
+            }
+            if (nums[i] != 3 || nums[i] != 1 ){
+                return true;
+            }
+        }
+        return true;
+    }
+
+
 
 }
 
