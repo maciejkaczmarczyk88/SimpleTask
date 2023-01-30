@@ -25,9 +25,12 @@ public class TestClass {
         // int difference = task2.bigDiff(table);
         // System.out.println(difference);
 
-        boolean tab1 = task3.has77(table);
-        boolean tab2 = task3.has77(table1);
-        System.out.println(tab1);
-        System.out.println(tab2);
+        //boolean tab1 = task3.has77(table);
+        //boolean tab2 = task3.has77(table1);
+        //System.out.println(tab1);
+        // System.out.println(tab2);
+
+        boolean b = task3.scoresIncreasing(table);
+        System.out.println(b);
     }
 }
